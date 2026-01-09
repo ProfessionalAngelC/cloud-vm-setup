@@ -1,7 +1,7 @@
-# Cloud VM Setup Project
+# Cloud VM Setup Project (Windows VM)
 
 ## Overview
-This project demonstrates the setup of a virtual machine in AWS, including compute, storage, networking, and access control. The goal is to create a safe testing environment that simulates production infrastructure.
+This project demonstrates the setup of a Windows virtual machine in AWS, including compute, storage, networking, and access control. The goal is to create a safe testing environment that simulates production infrastructure.
 
 ## Structure
 - `diagrams/` – Architecture and network diagrams
@@ -10,9 +10,8 @@ This project demonstrates the setup of a virtual machine in AWS, including compu
 - `summary/` – Short business relevance summary
 
 ## Key Features
-- EC2 instance (Linux or Windows)
+- EC2 instance (Windows Server)
 - Security group / firewall configuration
-- SSH/RDP access
-- Local web server / file server
+- RDP access
+- IIS web server installation
 - Optional attached storage volume (EBS)
-
