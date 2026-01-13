@@ -1,4 +1,4 @@
-# Week 1: Windows EC2 Virtual Machine / Cloud Environment Setup
+Windows EC2 Virtual Machine / Cloud Environment Setup
 
 ## Objective
 Launch and configure a Windows Server 2022 EC2 instance to practice cloud compute, networking, storage, and access control, creating a safe environment for testing internal services.
