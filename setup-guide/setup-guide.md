@@ -2,7 +2,7 @@
 
 ## 1. EC2 Instance Creation
 1. Log in to AWS Management Console
-2. Navigate to EC2 → Launch Instance
+2. Navigate to EC2 Launch Instance
 3. Choose **AMI**: Windows Server 2022
 4. Choose **Instance Type**: t2.micro (free tier)
 5. Configure Network & Security:
@@ -10,7 +10,7 @@
    - Optional: **HTTP (80)** for web server testing
 6. Add storage: 30GB default (free tier), optional extra 10GB
 7. Add tags: Key = `Name`, Value = `Portfolio-Windows-VM`
-8. Launch instance → Create new key pair (download `.pem`)
+8. Launch instance then Create new key pair (download `.pem`)
 
 ---
 
@@ -33,7 +33,7 @@
 ---
 
 ## 4. Optional Storage Volume (EBS)
-1. In AWS Console → EC2 → Volumes → Create Volume → Attach to instance
+1. In AWS Console, EC2, Volumes, Create Volume, Attach to instance
 2. Inside VM: Open **Disk Management**
 3. Initialize the disk and assign a drive letter (e.g., `E:`)
 4. Confirm the volume is accessible in **This PC**
