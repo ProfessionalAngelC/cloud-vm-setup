@@ -25,7 +25,7 @@
 ## 3. IIS Web Server Setup
 1. Open **Server Manager**
 2. Click **Add Roles and Features**
-3. Select **Web Server (IIS)** → Install
+3. Select **Web Server (IIS)** Install
 4. After installation, open **Internet Explorer** inside VM:
    - Go to `http://localhost`  
    - You should see the IIS “Welcome” page
